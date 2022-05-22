@@ -10,7 +10,6 @@ body {
   --web-focus: red;
   --logo-hover: aqua;
   --logo-focus: red;
-  
 }
 
 a[href] {
@@ -43,8 +42,8 @@ a[href] {
   color: var(--web-hover);
 }
 
-.web:focus{
-color: var(--web-focus);
+.web:focus {
+  color: var(--web-focus);
 }
 
 .logo:focus {
@@ -55,6 +54,10 @@ color: var(--web-focus);
   color: var(--logo-hover);
 }
 
+.list-header{
+  list-style-type: none;
+}
+
 .navigation > li {
   font-style: normal;
   font-weight: 500;
@@ -63,7 +66,7 @@ color: var(--web-focus);
   letter-spacing: 0.02em;
 }
 
-:root{
+:root {
   --navigation-a-hover: aqua;
   --navigation-a-focus: red;
   --adres-a-hover: aqua;
@@ -77,6 +80,8 @@ color: var(--web-focus);
 .navigation a:focus {
   color: var(--navigation-a-focus);
 }
+
+
 
 .adres a:hover {
   text-decoration: none;
@@ -98,10 +103,10 @@ color: var(--web-focus);
   color: #ffffff;
 }
 
-.services h1{
+.services h1 {
   font-weight: 900;
-    font-size: 44px;
-    line-height: 1,36;
+  font-size: 44px;
+  line-height: 1, 36;
 }
 
 .button1 {
@@ -110,16 +115,17 @@ color: var(--web-focus);
   font-weight: 700;
   line-height: 1.6;
   border: none;
+  cursor: pointer;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
 
-.button1:hover{
+.button1:hover {
   color: red;
 }
 
-.button1:focus{
+.button1:focus {
   color: green;
 }
 
@@ -130,12 +136,20 @@ color: var(--web-focus);
   letter-spacing: 0.03em;
 }
 
+.general-list{
+  list-style-type: none;  
+}
+
 .general p {
   font-weight: 400;
   font-size: 14px;
-  line-height: 1,71;
+  line-height: 1, 71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.about{
+  list-style-type: none;
 }
 
 .heading2 {
@@ -146,48 +160,55 @@ color: var(--web-focus);
   letter-spacing: 0.03em;
 }
 
+.team{
+  list-style-type: none;
+}
+
 .photoshadow {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
-.figcaption p{
+.figcaption p {
   font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;    
-    letter-spacing: 0.03em;  
-    color: #757575;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.figcaption h5{
+.figcaption h5 {
   font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;    
-    letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
-.footer{
+.footer {
   width: 1600px;
-    height: 252px;
-    background: #2F303A;
-    color: #ffffff;
+  height: 252px;
+  background: #2f303a;
+  color: #ffffff;
 }
 
-.footer-logo{
-  
-  font-family: "Raleway", sans-serif;    
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.5;
-    letter-spacing: 0.03em;    
-    text-decoration: none;
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-:root{
-      --studio-hover: aqua;
-      --studio-focus: red;
+.adres-fotter a{
+  color: #ffffff;
+}
+
+:root {
+  --studio-hover: aqua;
+  --studio-focus: red;
 }
 
 .studio {
@@ -200,17 +221,54 @@ color: var(--web-focus);
 
 .studio:focus {
   color: var(--studio-focus);
-} 
-
-.adres > a{
-  color: #ffffff;
 }
 
+.navigation-portfolio {
+  list-style-type: none;
+}
 
+:root {
+  --button-hover: white;
+  --button-focus: red;
+}
 
+.button {
+  width: 121px;
+  height: 38px;  
+  border: none;
+  cursor: pointer;
+}
 
+.button:hover{
+  background-color: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  color: var(--button-hover);
+}
 
+.button:focus{
+  color: var(--button-focus);
+}
 
+.portfolio-main-section  li{
+ 
+    list-style-type: none;
+    
+}
 
+.portfolio-main-section h3{
+  font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 
+}
 
+.portfolio-main-section p{
+  font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;  
+    letter-spacing: 0.03em;  
+    color: #757575;
+}
