@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', 'Raleway', sans-serif;
   background-color: #ffffff;
   color: #212121;
 }
@@ -34,7 +34,7 @@ a[href] {
   color: aqua;
 }
 
-.logo > div:hover {
+.logo > span:hover {
   color: aqua;
 }
 
@@ -50,13 +50,13 @@ a[href] {
   color: aqua;
 }
 
+.navigation a:focus {
+  color: red;
+}
+
 .adres a:hover {
   text-decoration: none;
   color: aqua;
-}
-
-.navigation a:focus {
-  color: red;
 }
 
 .adres a:focus {
@@ -80,10 +80,23 @@ a[href] {
   left: 700px;
   top: 430px;
   background: #2196f3;
+  font-size: 16px;
+  font-weight: 700;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
 }
 
+.button1:hover,
+.button1:focus {
+  color: red;
+}
 
+.general h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
