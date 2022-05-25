@@ -6,10 +6,10 @@ body {
 
 :root {
   --logo-color: #2196f3;
-  --web-hover: aqua;
-  --web-focus: red;
-  --logo-hover: aqua;
-  --logo-focus: red;
+  --web-hover: #2196f3;
+  --web-focus: #2196f3;
+  --logo-hover: #2196f3;
+  --logo-focus: #2196f3;
 }
 
 a[href] {
@@ -23,7 +23,7 @@ a[href] {
   line-height: 1.5;
 }
 
-.logo {
+.navigation-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -54,7 +54,7 @@ a[href] {
   color: var(--logo-hover);
 }
 
-.list-header {
+.navigation-list-header {
   list-style-type: none;
 }
 
@@ -67,10 +67,10 @@ a[href] {
 }
 
 :root {
-  --navigation-a-hover: aqua;
-  --navigation-a-focus: red;
-  --adres-a-hover: aqua;
-  --adres-a-focus: red;
+  --navigation-a-hover: #2196f3;
+  --navigation-a-focus: #2196f3;
+  --header-adres-a-hover: #2196f3;
+  --header-adres-a-focus: #2196f3;
 }
 
 .navigation a:hover {
@@ -81,13 +81,13 @@ a[href] {
   color: var(--navigation-a-focus);
 }
 
-.adres a:hover {
+.header-adres a:hover {
   text-decoration: none;
-  color: var(--adres-a-hover);
+  color: var(--header-adres-a-hover);
 }
 
-.adres a:focus {
-  color: var(--adres-a-focus);
+.header-adres a:focus {
+  color: var(--header-adres-a-focus);
 }
 
 .services {
@@ -120,11 +120,11 @@ a[href] {
 }
 
 .button1:hover {
-  color: red;
+  color: black;
 }
 
 .button1:focus {
-  color: green;
+  color: black;
 }
 
 .heading {
@@ -200,17 +200,31 @@ a[href] {
   text-decoration: none;
 }
 
-.adres-fotter a {
+.footer-address:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+
+.fotter-contact a {
   color: #ffffff;
+}
+
+.fotter-contact a:hover {
+  color: #2196f3;
+}
+
+.footer ul {
+  list-style-type: none;
 }
 
 :root {
-  --studio-hover: aqua;
-  --studio-focus: red;
+  --studio: #ffffff;
+  --studio-hover: #2196f3;
+  --studio-focus: #2196f3;
 }
 
 .studio {
-  color: #ffffff;
+  color: var(--studio);
 }
 
 .studio:hover {
@@ -226,8 +240,8 @@ a[href] {
 }
 
 :root {
-  --button-hover: white;
-  --button-focus: red;
+  --button-hover: #2196f3;
+  --button-focus: white;
 }
 
 .button {
